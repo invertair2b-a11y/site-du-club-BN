@@ -345,17 +345,62 @@ footer{background:var(--navy);color:rgba(255,255,255,0.85);padding-top:64px;}
     </div>
   </section>
 
-  <section style="background:var(--white);">
+<section style="background:var(--white);">
     <div class="wrap">
       <div class="section-head">
-        <span class="eyebrow">Dossier d'inscription</span>
-        <h2>Téléchargez votre dossier</h2>
-        <p>Retrouvez ci-dessous les formulaires d'inscription 2026 à compléter selon l'âge du licencié.</p>
+        <span class="eyebrow">Documents</span>
+        <h2>Formulaires à télécharger</h2>
+        <p>Consultez et téléchargez les formulaires correspondant à votre catégorie d'inscription.</p>
       </div>
 
-      <div class="cta-actions" style="justify-content:center;">
-        <a href="formulaire-inscription-adultes-2026.pdf" target="_blank" rel="noopener" class="btn btn-pink">Formulaire Adultes</a>
-        <a href="formulaire-inscription-ecole-natation-2026.pdf" target="_blank" rel="noopener" class="btn btn-ghost">Formulaire École de Natation</a>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:32px;">
+        <!-- Formulaire École de Natation -->
+        <div class="card" style="display:flex;flex-direction:column;">
+          <div style="flex:1;">
+            <h3 style="color:var(--navy);margin-bottom:12px;font-family:'Fraunces',serif;font-size:1.15rem;">Formulaire École de Natation</h3>
+            <p style="color:var(--ink-soft);margin:0 0 20px;font-size:0.95rem;">Pour les enfants en apprentissage des fondamentaux de la natation (4 niveaux).</p>
+          </div>
+          <a href="../Formulaire%20EN%202026.pdf" download class="btn btn-primary" style="align-self:flex-start;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            Télécharger le formulaire
+          </a>
+        </div>
+
+        <!-- Formulaire Adultes -->
+        <div class="card" style="display:flex;flex-direction:column;">
+          <div style="flex:1;">
+            <h3 style="color:var(--navy);margin-bottom:12px;font-family:'Fraunces',serif;font-size:1.15rem;">Formulaire Adultes</h3>
+            <p style="color:var(--ink-soft);margin:0 0 20px;font-size:0.95rem;">Pour les adultes souhaitant s'inscrire à des activités de natation, loisir ou perfectionnement.</p>
+          </div>
+          <a href="formulaire-inscription-adultes-2026.pdf" download class="btn btn-primary" style="align-self:flex-start;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            Télécharger le formulaire
+          </a>
+        </div>
+
+        <!-- Formulaire Compétition -->
+        <div class="card" style="display:flex;flex-direction:column;">
+          <div style="flex:1;">
+            <h3 style="color:var(--navy);margin-bottom:12px;font-family:'Fraunces',serif;font-size:1.15rem;">Formulaire Compétition</h3>
+            <p style="color:var(--ink-soft);margin:0 0 20px;font-size:0.95rem;">Pour les nageurs confirmés et les élites en compétition.</p>
+          </div>
+          <a href="Formulaire%20compet%202026.pdf" download class="btn btn-primary" style="align-self:flex-start;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            Télécharger le formulaire
+          </a>
+        </div>
       </div>
     </div>
   </section>
